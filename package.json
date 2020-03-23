@@ -1,0 +1,23 @@
+{
+  "name": "@bitsler/hdkey-secp256r1",
+  "version": "1.0.0",
+  "description": "hdkey-secp256r1 implementation",
+  "main": "src/hdkey.js",
+  "repository": "git@github.com:BitslerCasino/secp256r1.git",
+  "author": "unibtc <unibtc@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bn.js": "^5.1.1",
+    "coinstring": "^2.3.0",
+    "elliptic": "^6.5.2"
+  },
+  "devDependencies": {
+    "bigi": "^1.4.2",
+    "ecurve": "^1.0.6",
+    "mocha": "^7.1.1",
+    "secure-random": "^1.1.2"
+  }
+}
